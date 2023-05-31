@@ -8,7 +8,7 @@
 namespace std {
 	template<typename T>
 	inline std::string to_string(MWATH::Vec2<T>& x) {
-		std::stringstream ss();
+		std::stringstream ss;
 
 		ss << "[";
 		ss << to_string(x.x);
