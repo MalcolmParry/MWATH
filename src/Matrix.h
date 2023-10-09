@@ -95,8 +95,8 @@ namespace MWATH {
 	inline Matrix4x4<T> RotateX(T angle) {
 		Matrix4x4<T> result(0);
 
-		T cosTheta = cos((long double) T);
-		T sinTheta = sin((long double) T);
+		T cosTheta = cos((long double) angle);
+		T sinTheta = sin((long double) angle);
 
 		result[0][0] = 1;
 		result[3][3] = 1;
@@ -112,8 +112,8 @@ namespace MWATH {
 	inline Matrix4x4<T> RotateY(T angle) {
 		Matrix4x4<T> result(0);
 
-		T cosTheta = cos((long double) T);
-		T sinTheta = sin((long double) T);
+		T cosTheta = cos((long double) angle);
+		T sinTheta = sin((long double) angle);
 
 		result[0][0] = cosTheta;
 		result[2][0] = sinTheta;
@@ -128,8 +128,8 @@ namespace MWATH {
 	inline Matrix4x4<T> RotateZ(T angle) {
 		Matrix4x4<T> result(0);
 
-		T cosTheta = cos((long double) T);
-		T sinTheta = sin((long double) T);
+		T cosTheta = cos((long double) angle);
+		T sinTheta = sin((long double) angle);
 
 		result[0][0] = cosTheta;
 		result[1][0] = -sinTheta;

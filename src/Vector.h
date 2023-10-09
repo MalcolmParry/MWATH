@@ -128,7 +128,7 @@ namespace MWATH {
 	template<typename T>
 	class Vec4 {
 	public:
-		inline Vec2() {
+		inline Vec4() {
 			x = 0;
 			y = 0;
 			z = 0;
