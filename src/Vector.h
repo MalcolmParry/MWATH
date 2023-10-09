@@ -13,7 +13,7 @@
 
 namespace MWATH {
 	template<typename T>
-	struct Vec2 {
+	class Vec2 {
 	public:
 		inline Vec2() {
 			x = 0;
@@ -64,7 +64,7 @@ namespace MWATH {
 	};
 
 	template<typename T>
-	struct Vec3 {
+	class Vec3 {
 	public:
 		inline Vec3() {
 			x = 0;
@@ -126,7 +126,7 @@ namespace MWATH {
 	};
 
 	template<typename T>
-	struct Vec4 {
+	class Vec4 {
 	public:
 		inline Vec2() {
 			x = 0;
