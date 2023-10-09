@@ -144,8 +144,8 @@ namespace MWATH {
 	template<typename T>
 	inline Matrix4x4<T> RotateXYZ(Vec3<T> vector) {
 		Matrix4x4<T> result = RotateX(vector.x);
-		result *= RotateY(vector.y);
-		result *= RotateZ(vector.z);
+		result = result * RotateY(vector.y);
+		result = result * RotateZ(vector.z);
 
 		return result;
 	}
